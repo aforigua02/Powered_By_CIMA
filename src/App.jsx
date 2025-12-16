@@ -1,13 +1,11 @@
-import {Navbar} from "./components/Navbar"
-import {Banner} from "./components/Banner"
-import { Portales } from "./components/Portales";
+import { MainLayout } from "./layouts/MainLayout";
+import {Home} from "./pages/Home"
+
 function App(){
     return(
-      <>
-        <Navbar/>
-        <Banner/>
-        <Portales/>
-      </>
+      <MainLayout>
+        <Home/>
+      </MainLayout>
     )
 }
 
