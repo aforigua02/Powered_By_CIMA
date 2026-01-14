@@ -20,3 +20,25 @@
     --color-red-secundaryCima:#FB0808;
     --font-roboto: "Roboto", sans-serif;
 }
+
+@keyframes inwardsY {
+    from {
+    opacity: 0;
+    transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes inwardsX {
+    from {
+    opacity: 0;
+    transform: translateX(90px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

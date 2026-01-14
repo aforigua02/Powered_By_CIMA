@@ -29,19 +29,25 @@ export const CardsUbicaciones = ()=>{
 
     return(
         <>
-            <section className="flex flex-col items-center justify-center gap-4 font-roboto text-blue-primaryCima my-10 transition-all h-auto">
-                <h2 className="text-4xl font-bold p-8">Tenemos presencia en:</h2>
+            <section className="flex flex-col  justify-center gap-8 font-roboto text-blue-primaryCima my-10 h-auto animate-[inwardsX_1s_ease-out_forwards]">
+                <div className="flex flex-col gap-5 py-12 2xl:px-96 items-center">
+                    <h2 className="text-4xl 2xl:text-5xl text-blue-primaryCima text-center font-medium">Presencia que amplifica el modelo</h2>
+                    <p className="text-lg  text-blue-primaryCima text-center 2xl:w-1/2">Territorios donde nuestra red de agentes y captaciones consolida la expansión del modelo</p>
+                </div>
                 {
                     cardUbicaciones.map((item,index)=>{
                         return(
-                            <article className="flex justify-center items-center inset-0 h-auto gap-10" key={index}>
-                                <div className="relative flex justify-center items-center inset-0 w-96 h-auto gap-5">
-                                    <img src={item.imagen} alt={item.titulo} className=" object-cover inset-0 2 rounded-2xl w-full h-56" />
+                            <article className="flex justify-center items-center inset-0 h-auto gap-15" key={index}>
+                                <div className="relative flex justify-center items-center inset-0 w-96 h-auto gap-5 2xl:w-115">
+                                    <img src={item.imagen} alt={item.titulo} className=" object-cover inset-0 2 rounded-2xl w-full h-56 2xl:h-65"  loading="lazy" />
                                     <h4 className="z-10 absolute flex justify-center items-center text-white font-bold font-roboto w-full text-2xl bg-gray-600/35 h-20">{item.titulo}</h4>
                                 </div>
                                 <div className="flex w-1/3 gap-10 items-center">
-                                    <h5 className="text-4xl font-bold text-center">{item.propCaptadas}k <span className="">Captadas</span></h5>
-                                    <p className="text-base">{item.descripcion}</p>
+                                    <h5 className="text-5xl font-light text-center">{item.propCaptadas}k <span className="">Captadas</span></h5>
+                                    <div className="flex flex-col gap-5 items-center">
+                                        <p className="text-base">{item.descripcion}</p>
+                                        <a href="#" className="text-blue-primaryCima text-center text-lg rounded-lg w-38 h-auto py-2 font-roboto font-bold inline-flex gap-1 items-center transition-normal duration-400 hover:underline hover:translate-x-5">Conocer<img className="w-6" src="src/assets/icons/proximo.png" alt="" /></a>
+                                    </div>
                                 </div>
                             </article>
                         )
