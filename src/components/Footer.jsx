@@ -1,11 +1,11 @@
-import React from 'react'
+import logo from "../assets/icons/logo_BYCIMA.jpg"
 
 const Footer = () => {
   return (
     <footer className="bg-blue-primaryCima text-white px-8 2xl:px-20 py-5 font-roboto"> 
       <div className='grid grid-cols-4 gap-16 content-center'>
         <div className='flex flex-col justify-center items-center'>
-          <img src="src/assets/icons/logo_BYCIMA.jpg" className='w-20 rounded-full' alt="Logo de cima" />
+          <img src={logo} className='w-20 rounded-full' alt="Logo de cima" />
           <ul className='flex justify-center gap-4 pt-5'>
             <li><img className='w-7' src="src/assets/icons/whatsapp.png" alt="icono Whatsapp" /></li>
             <li><img className='w-7' src="src/assets/icons/facebook.png" alt="Icono facebook" /></li>
