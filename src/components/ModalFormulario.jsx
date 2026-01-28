@@ -34,9 +34,6 @@ export default function ModalFormulario({onClose}) {
                             <button type="submit" className="font-bold bg-red-secundaryCima text-white p-2 rounded">Enviar</button>
                         </form>
                     </div>
-                    <div className="border bg-black">
-                        <img src="Logo_Powered_By_Cima_L1" className="h-10 z-10 " alt="" />
-                    </div>
                 </div>
             </div>
         </div>

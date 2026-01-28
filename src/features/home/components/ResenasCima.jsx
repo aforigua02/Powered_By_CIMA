@@ -1,6 +1,6 @@
-import resena1 from "../assets/images/hombre-en-camisa-y-corbata-de-pie.jpg"
-import resena2 from "../assets/images/agenteReseña.jpg"
-import resena3 from "../assets/images/sonriente-apuesto-hombre-de-negocios-apoyado-en-las-rodillas.jpg"
+import resena1 from "@/assets/images/hombre-en-camisa-y-corbata-de-pie.jpg"
+import resena2 from "@/assets/images/agenteReseña.jpg"
+import resena3 from "@/assets/images/sonriente-apuesto-hombre-de-negocios-apoyado-en-las-rodillas.jpg"
 
 export const ResenaCima = () =>{
     return(

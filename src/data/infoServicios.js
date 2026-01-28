@@ -15,29 +15,7 @@ import iconcomunidad from "../assets/icons/icons_Vista_NuevosAgentes/comunidad.p
 import iconvisibilidad from "../assets/icons/icons_Vista_NuevosAgentes/visibilidad-web.png"
 
 //importd de iconos redes sociales CIMA
-import iconFacebook from "../assets/icons/facebook.png"
-import iconWhatsApp from "../assets/icons/whatsapp.png"
-import iconInstagram from "../assets/icons/instagram.png"
-import iconInstagram_opaco from "../assets/icons/logotipo-de-instagram.png"
 
-//-----Array de los iconos
-export const iconosRedesociales = [
-    {
-        id:1,
-        imagen:iconFacebook,
-        titulo:"Icono de facebook"
-    },
-    {
-        id:2,
-        imagen:iconWhatsApp,
-        titulo:"Icono de whatsapp"
-    },
-    {
-        id:3,
-        imagen:iconInstagram,
-        titulo:"Icono de Instagram"
-    },
-]
 
 //-----------------DATOS HOME-------
 

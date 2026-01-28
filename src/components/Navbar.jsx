@@ -1,5 +1,5 @@
 import {useEffect,useState} from "react";
-import logo from "../assets/icons/logo_BYCIMA.jpg"
+import logo from "../assets/images/logosCima/logo_BYCIMA.jpg"
 import ModalFormulario from './ModalFormulario';
 import { createPortal } from "react-dom";
 

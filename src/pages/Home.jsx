@@ -1,8 +1,8 @@
 import { CardServicios } from "../components/CardServicios"
 import { CardsUbicaciones } from "../components/CardsUbicaciones";
-import { EcosistemaCima } from "../components/EcosistemaCima";
-import { Portales } from "../components/Portales"
-import { ResenaCima } from "../components/ResenasCima";
+import { EcosistemaCima } from "../features/home/components/EcosistemaCima.jsx";
+import { Portales } from "../features/home/components/Portales.jsx"
+import { ResenaCima } from "../features/home/components/ResenasCima.jsx";
 import {StatsBar} from "../components/statsbar/StatsBar.jsx"
 import {datosInmobiliarios} from "../data/infoServicios.js"
 import {HomeBanner} from "../components/banners/HomeBanner.jsx"
