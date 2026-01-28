@@ -1,6 +1,6 @@
 import { AboutBanner } from "../components/banners/AboutBanner.jsx"
-import { CajasAcercade } from "../components/CajasAcercade.jsx"
-import { StatsBar } from "../components/StatsBar.jsx"
+import { CajasAcercade } from "../components/CajasAcercade"
+import { StatsBar } from "../components/statsbar/StatsBar"
 import {contenedorSuperioresCards,statsDescripcion,contenedorInferioresCards} from "../data/infoServicios.js"
 
 export const Aboutme = ()=>{

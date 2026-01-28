@@ -14,6 +14,30 @@ import icontecnologia from "../assets/icons/icons_Vista_NuevosAgentes/tecnologia
 import iconcomunidad from "../assets/icons/icons_Vista_NuevosAgentes/comunidad.png"
 import iconvisibilidad from "../assets/icons/icons_Vista_NuevosAgentes/visibilidad-web.png"
 
+//importd de iconos redes sociales CIMA
+import iconFacebook from "../assets/icons/facebook.png"
+import iconWhatsApp from "../assets/icons/whatsapp.png"
+import iconInstagram from "../assets/icons/instagram.png"
+import iconInstagram_opaco from "../assets/icons/logotipo-de-instagram.png"
+
+//-----Array de los iconos
+export const iconosRedesociales = [
+    {
+        id:1,
+        imagen:iconFacebook,
+        titulo:"Icono de facebook"
+    },
+    {
+        id:2,
+        imagen:iconWhatsApp,
+        titulo:"Icono de whatsapp"
+    },
+    {
+        id:3,
+        imagen:iconInstagram,
+        titulo:"Icono de Instagram"
+    },
+]
 
 //-----------------DATOS HOME-------
 
@@ -174,4 +198,52 @@ export const serviciosNuevosAgentes =[
     },
 ]
 
+//---------StastBar de Nuevos agentes
+export const statsBarNuevoAgente = [
+    {
+        id:1,
+        descripcion:"¿Te gustaría conversar con el equipo de Talento de CIMA para explorar oportunidades?",
+        buttom:"¡COMIENZA AHORA!"
+    }
+]
+
+// ----------Img de seccion de redes en Pestaña nuevos agentes
+export const redesCima = [
+    {
+        id:1,
+        imagen:imgservices3,
+        titulo:"Powered By Cima",
+        url:""
+    },
+    {
+        id:2,
+        imagen:imgservices3,
+        titulo:"Powered By Cima",
+        url:""
+    },
+    {
+        id:3,
+        imagen:imgservices3,
+        titulo:"Powered By Cima",
+        url:""
+    },
+    {
+        id:4,
+        imagen:imgservices3,
+        titulo:"Powered By Cima",
+        url:""
+    },
+    {
+        id:5,
+        imagen:imgservices3,
+        titulo:"Powered By Cima",
+        url:""
+    },
+    {
+        id:6,
+        imagen:imgservices3,
+        titulo:"Powered By Cima",
+        url:""
+    },
+]
 
