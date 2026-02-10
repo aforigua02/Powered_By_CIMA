@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @font-face {
     font-family: "Roboto";
     src: url("./assets/fonts/Roboto-VariableFont_wdth,wght.ttf") format("truetype");
@@ -43,10 +44,6 @@
     }
 }
 
-html {
-    scrollbar-gutter: stable;
-}
-
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -57,6 +54,16 @@ html {
     to { transform: translateX(0); }
 }
 
+@keyframes slideInLeft {
+    from { transform: translateX(0); }
+    to { transform: translateX(100%); }
+}
+
 .animate-fade { animation: fadeIn 0.8s ease-out; }
 .animate-slide { animation: slideInRight 0.3s ease-out; }
+.animate-slide-Left { animation: slideInLeft 0.3s ease-out; }
+
+html { /*Mantener el scroll estable en la pagina al abrir el formulario*/
+    scrollbar-gutter: stable;
+}
 
